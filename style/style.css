@@ -1,0 +1,400 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+
+/* common style or utilities  */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.primary-btn {
+  background: #FF900E;
+  color: white;
+  padding: 14px 22px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+}
+
+/* header style start here  */
+.header-container {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+.headers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 140px;
+  padding-top: 30px;
+}
+.header-title {
+  font-weight: 700;
+  font-size: 35px;
+  margin: 0;
+}
+.nav-menu ul {
+  display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 0;
+}
+.nav-menu ul li {
+  margin: 0 25px;
+  list-style: none;
+}
+.nav-menu ul li a {
+  text-decoration: none;
+  color: #424242;
+}
+/* header style end here  */
+
+/* banner style start here  */
+.banner-info {
+  text-align: center;
+  width: 600px;
+  margin: 0 auto  ;
+  margin-top: 70px;
+  /* padding: 0 300px;   */
+}
+.banner-info .banner-title {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+}
+.banner-info .banner-description {
+  font-size: 14px;
+  color: #727272;
+}
+.banner-image img {
+  width: 1050px;
+  padding-left: 145px;
+  margin: 30px 0;
+}
+/* banner style end here  */
+
+/* feature plan style start here  */
+.feature-plan {
+  display: flex;
+  padding: 0 180px;
+  margin-top: 60px;
+}
+.all-feature-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 18px;
+  row-gap: 12px;
+}
+.plan-img img {
+  width: 240px;
+  height: 240px;
+}
+.feature-plan-info {
+  padding-left: 70px;
+  padding-top: 120px;
+}
+.feature-plan-info .feature-plan-title {
+  font-weight: 500;
+  font-size: 34px;
+  margin: 0;
+}
+.feature-plan-info .first-span-style {
+  color: #727272;
+}
+.feature-plan-info .second-span-style {
+  color: #131313;
+}
+.feature-plan-info .third-span-style {
+  color: #FF900E;
+}
+.feature-plan-info .feature-plan-description {
+  font-size: 14px;
+  color: #727272;
+  padding-bottom: 15px;
+}
+/* feature plan style end here  */
+
+/* feature love and enjoy style start here  */
+.feature-love-and-enjoy-container {
+  padding: 0 140px;
+  display: flex;
+  margin-top: 100px;
+}
+.feature-love-and-enjoy-info {
+  padding-right: 60px;
+}
+.feature-love-and-enjoy-img img {
+  width: 500px;
+  height: 670px;
+  margin-left: 50px;
+}
+.feature-love-and-enjoy-info .love-and-enjoy-title {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 0;
+  width: 300px;
+  border-left: 4px solid #FF900E;
+  padding-left: 10px;
+}
+.feature-love-and-enjoy-info .love-and-enjoy-description {
+  font-size: 14px;
+  color: #727272;
+}
+.love-and-enjoy-cards .card {
+  /* border: 1px solid sandybrown; */
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+.card .card-title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 14px;
+  color: #131313;
+}
+.card .card-description {
+  margin: 0;
+  padding-top: 5px;
+  font-size: 13px;
+  color: #727272;
+}
+.feature-love-and-enjoy-btn {
+  margin-left: 650px;
+  padding: 30px 40px;
+  background-color: #FF900E;
+  color: white;
+  border-radius: 8px;
+  margin-top: -65px;
+  border: none;
+}
+.feature-love-and-enjoy-btn .btn-title {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+  padding: 10px;
+}
+.feature-love-and-enjoy-btn .btn-description {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+/* feature love and enjoy style end here  */
+
+/* some event style start here  */
+.some-event-container {
+  margin-top: 130px;
+  padding: 0 140px;
+}
+.some-event-container .event-title {
+  font-weight: 700;
+  font-size: 35px;
+  margin: 0;
+}
+.some-event-container .event-description {
+  width: 500px;
+  font-size: 12px;
+  color: #727272;
+}
+.event-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 80px;
+  padding: 0 40px;
+}
+.event-card {
+  text-align: center;
+  padding: 25px 0;
+  margin: 0 40px;
+  border: 1px solid #FF900E;
+  border-radius: 8px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+}
+.event-card:hover {
+  transform: rotate(30deg) scale(1.1);
+}
+.event-card .work-finished-count {
+  margin: 0;
+  font-weight: 600;
+  font-size: 30px;
+  color: #424242;
+}
+.event-card .work-name {
+  margin: 0;
+  font-weight: 600;
+  font-size: 14px;
+  color: #727272;
+}
+/* some event style end here  */
+
+/* sponsor provider style start here  */
+
+.sponsor-provider-container {
+  margin-top: 130px;
+  text-align: center;
+}
+.sponsor-provider-container .sponsor-provider-title {
+  font-weight: 700;
+  font-size: 40px;
+  margin: 0;
+  color: #131313;
+}
+.sponsor-provider-container .sponsor-provider-description {
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 10px;
+  font-size: 12px;
+  color: #727272;
+}
+.sponsor-provider-company {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 40px;
+  padding: 0 60px;
+}
+/* sponsor provider style end here  */
+
+/* feature style start here  */
+.feature-container {
+  margin-top: 130px;
+  display: flex;
+  padding: 0 140px;
+}
+.feature-image img {
+  padding-left: 30px;
+}
+.feature-info {
+  padding-left: 80px;
+  padding-top: 40px;
+}
+.feature-info .feature-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 30px;
+  color: #0A0826;
+  padding-bottom: 16px;
+}
+.feature-info .feature-description {
+  margin: 0;
+  font-weight: 700;
+  font-size: 14px;
+  padding-bottom: 16px;
+  color: #727272;
+}
+.feature-info .feature-btn {
+  background-color: #E02C6D;
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding: 10px 24px;
+}
+/* feature style end here  */
+
+/* footer style start here  */
+.footer-container {
+  margin: 130px 140px;
+  background-color: #FFF4E7;
+  border-radius: 8px;
+  padding: 10px 0;
+}
+.footer-container .footer-description {
+  text-align: center;
+  font-size: 14px;
+  color: #424242;
+}
+/* footer style end here  */
+
+/* -----------------
+Media Queries  
+--------------------*/
+
+/* -----------------For Mobile Device ----------- */
+@media only screen and (max-width: 576px) {
+  /* header and banner media queries start  */
+  .headers {
+    flex-direction: column;
+    padding: 0;
+  }
+  .nav-menu ul {
+    flex-direction: column;
+  }
+  .nav-menu ul li {
+    padding: 10px 0;
+  }
+  .banner-info .banner-description {
+    width: 550px;
+  }
+  .banner-image img {
+    width: 100%;
+    padding: 0;
+  }
+   /* header and banner media queries end  */
+
+   /* feature plan media queries start here  */
+  .feature-plan {
+    flex-direction: column;
+  }
+  .all-feature-img {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .feature-plan-info {
+    padding-left: 0;
+  }
+  /* feature plan media queries end here  */
+
+  /* feature love and enjoy media queries start here  */
+  .feature-love-and-enjoy-container {
+    flex-direction: column-reverse;
+  }
+  .feature-love-and-enjoy-info {
+    margin-top: 20px;
+  }
+  .feature-love-and-enjoy-img img {
+    width: 100%;
+    height: 500px;
+    margin: 0;
+  }
+  .feature-love-and-enjoy-btn {
+    margin-left: 120px;
+    margin-top: 20px;
+  }
+   /* feature love and enjoy media queries end here  */
+
+   /* some event media queries start here  */
+  .some-event-container .event-description {
+    width: 400px;
+  }
+  .event-card-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+  }
+  .event-card {
+    margin-bottom: 30px;
+  }
+  .event-card:hover {
+    transform: rotate(-20deg) scale(0.9);
+  }
+   /* some event media queries end here  */
+
+   /* sponsor provider media queries start here */
+  .sponsor-provider-company {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0;
+  }
+  .sponsor-provider-company-logo img {
+    padding: 10px 10px;
+  }
+  /* sponsor provider media queries end here */
+
+  /* feature media queries start here  */
+  .feature-container {
+    flex-direction: column;
+    padding: 0;
+  }
+  .feature-image img {
+    margin-left: 40px;
+  }
+   /* feature media queries end here  */
+}
+ 
